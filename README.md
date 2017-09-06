@@ -17,7 +17,7 @@ g++ tcpForwarder.cpp -lpthread -o tcpForward
 ./tcpForward
 ```
 
-### a. With parameter, it will use this setting:
+### b. With parameter, it will use this setting:
 
 * input: ip_in:port_in
 * output: ip_out:port_out
