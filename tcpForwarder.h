@@ -15,9 +15,9 @@ struct socket_par
   int soc_out;
 };
 
-char in_ip[] = "192.168.1.100";
+char in_ip[15] = "192.168.1.100";
 int in_port = 44405;
-char out_ip[] = "192.168.1.100";
+char out_ip[15] = "192.168.1.100";
 int out_port = 44406;
 
 /** \brief Create a socket for listening
